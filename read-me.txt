@@ -1,0 +1,27 @@
+1709 CS106 homework3 
+1509853G-I011-0202
+Wang, jing qing
+Íõ¾¸Çå
+the number of group member:1 person
+
+summary:
+The whole project has 9 .c file and 10 .h file.
+I did a little bit changing of the giving header file, but data structure didn't change at all.
+
+For scanner: 
+I didn't us the TokenList structure, but directly use TokenNode structure for the main function. 
+
+For parser:
+I used the second version of grammar,and totally parse the every syntax in the giving file.
+
+For analyser:
+I built the symbol table and did symbol check at the same time.
+and did the type check after.  
+
+For error and control:
+I didn't finish the full error handling, so it can't report many error for only compile one time. 
+And I didn't set processCmd available. 
+
+
+It can successfully compile the seven file that didn't have the error in the giving .cm file.
+
